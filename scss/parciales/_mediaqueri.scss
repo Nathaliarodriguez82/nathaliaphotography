@@ -1,0 +1,18 @@
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 940px){
+    .header{
+        width: auto;
+    
+  
+    &__logo{
+        object-fit: cover;
+        margin: 10px 10px 15px 10px;
+        width: 150px;
+        height: 100px;
+   }
+  
+   &__link{
+       align-items: center;
+    }
+}
+}

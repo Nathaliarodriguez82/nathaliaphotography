@@ -1,0 +1,14 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 40px;
+    
+    &__contenedor{
+        height: 50px;}
+    
+}

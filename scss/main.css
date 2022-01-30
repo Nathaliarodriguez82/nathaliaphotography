@@ -1,0 +1,450 @@
+.header {
+  padding: 10px 10px 10px 10px;
+  border: 10px black solid;
+}
+
+.header__logo {
+  margin: 10px;
+  width: 100px;
+  max-width: 100%;
+}
+
+.header__link {
+  font-size: 20px;
+  padding: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.footer__contenedor {
+  height: 50px;
+}
+
+.galeria__descripcion {
+  display: -ms-grid;
+  display: grid;
+  padding: 10px 25px 20px 15px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.galeria__descripcion1 {
+  padding: 10px 25px 20px 15px;
+}
+
+.retratos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  overflow: hidden;
+}
+
+.retratos__item {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.formulario {
+  display: flexbox;
+}
+
+.formulario1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 940px) {
+  .header {
+    width: auto;
+  }
+  .header__logo {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 10px 10px 15px 10px;
+    width: 150px;
+    height: 100px;
+  }
+  .header__link {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*media querie MOBILE*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #494847;
+}
+
+/** historia INDEX **/
+.foto__descripcion {
+  overflow-x: hidden;
+  width: auto;
+}
+
+.titulo {
+  text-align: center;
+  padding: 10px 10px 40px 10px;
+  font-size: 40px;
+  font-family: bold;
+  -webkit-animation: infinite 3s infinite;
+          animation: infinite 3s infinite;
+  -webkit-transform: translateY(50);
+          transform: translateY(50);
+}
+
+.descripcion {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 25px 20px 5px;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: font-size 30px;
+}
+
+.fotos__index {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/** FOOTER **/
+.parrafo {
+  font-size: 20px;
+}
+
+/** HISTORIA **/
+.galeria__historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: font-size 30px;
+}
+
+/** RETRATOS **/
+.retratoss {
+  padding: 20px;
+}
+
+.paisajes__parrafo {
+  text-align: center;
+  padding: 10px 25px 40px 25px;
+  font-size: 35px;
+}
+
+/** PAISAJES **/
+.paisajes__section {
+  display: block;
+  position: relative;
+  padding: 10px 25px 10px 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.paisajes__contenedor {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  padding: 5px;
+  gap: 1rem;
+}
+
+.paisajesss {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  overflow: hidden;
+}
+
+.paisajes__item {
+  padding: 20px;
+  width: 100%;
+  height: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/** CONTACTO **/
+.items {
+  font-size: font-size 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/** MEDIA QUERY **/
+/* DESKTOP */
+@media screen and (min-width: 940px) and (max-width: 1400px) {
+  * {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+  }
+  .header__logo {
+    width: 400px;
+    height: 300px;
+  }
+  .galeria {
+    display: -ms-grid;
+    display: grid;
+  }
+  .contenedor__galeria {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .galeria1 {
+    width: 880px;
+    height: 670px;
+  }
+  .galeria__descripcion {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .foto__descripcion1 {
+    width: 910px;
+    height: 730px;
+  }
+  .retratos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 940px) {
+  * {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 40px;
+    text-decoration: none;
+    color: #494847;
+  }
+  .descripcion {
+    width: auto;
+    font-size: font-size 30px;
+    text-align: center;
+  }
+  .footer {
+    width: auto;
+  }
+  .galeria {
+    display: -ms-grid;
+    display: grid;
+  }
+  .contenedor__galeria {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .galeria1 {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+/*media querie MOBILE*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  * {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: font-size 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .header__logo {
+    width: 80px;
+    height: 60px;
+  }
+  .header__link {
+    font-size: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .imagen__descripcion {
+    width: 300px;
+    height: 200px;
+  }
+  .titulo {
+    font-size: font-size 20px;
+  }
+  .parrafo__descripcion {
+    font-size: font-size 20px;
+    text-align: center;
+  }
+  .galeria {
+    display: -ms-grid;
+    display: grid;
+  }
+  .contenedor__galeria {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .galeria1 {
+    width: 270px;
+    height: 200px;
+  }
+  .galeria__descripcion {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .foto__descripcion1 {
+    width: 300px;
+    height: 230px;
+  }
+  .parrafo__retratos {
+    font-size: font-size 20px;
+  }
+  .parrafo__paisajes {
+    font-size: font-size 20px;
+    margin: 20px;
+  }
+  .foto__paisaje {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+    overflow: hidden;
+    gap: 10px;
+  }
+  .titulo {
+    font-size: font-size 30px;
+  }
+  .paisajesss {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .paisajes__contenedor {
+    padding: 1px;
+  }
+  .paisajes__parrafo {
+    font-size: font-size 20px;
+  }
+  .form {
+    overflow: hidden;
+    width: 300px;
+  }
+  .nombree, .input, .buton {
+    overflow: hidden;
+  }
+}
+
+@-webkit-keyframes infinite {
+  from {
+    -webkit-transform: translateY(50);
+            transform: translateY(50);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+
+@keyframes infinite {
+  from {
+    -webkit-transform: translateY(50);
+            transform: translateY(50);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+/*# sourceMappingURL=main.css.map */

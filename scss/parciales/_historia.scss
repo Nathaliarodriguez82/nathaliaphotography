@@ -1,0 +1,13 @@
+.galeria__descripcion{
+    display: grid;
+    padding: 10px 25px 20px 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    &1{
+        padding: 10px 25px 20px 15px;
+      }
+  }
+  
